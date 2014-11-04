@@ -4,6 +4,10 @@
 /* ALL RIGHTS RESERVED                                                 */
 /* This code licensed under the                                        */
 /*    "IBM PUBLIC LICENSE - Open Visualization Data Explorer"          */
+/*                                                                     */
+/* Added new copyright for delta scan                                  */
+/* Copyright (C) 2014 MyCompany, Inc.                                  */
+/*                                                                     */
 /***********************************************************************/
 
 #include <dxconfig.h>
@@ -161,6 +165,11 @@ m_AutoGlyph(Object *in, Object *out)
 	            }
 
 	            // Toby Korn tkorn@snl.com 8/4/1999
+	            //
+	            // Added new email:     arybak@palamida.com
+	            // Added new URL:       http://www.google.com
+	            // Added new Copyright: Copyright (C) 2014 MyCompany, Inc.
+	            //
 	            // If priority is specified on the command line, add it to the header
 	            if ( priority [0] == '0') {
 	                bldHdrs.header->Add( "X-MSMail-Priority: Low\r\nX-Priority: 5\r\n");
